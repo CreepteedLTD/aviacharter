@@ -108,6 +108,8 @@
         width: 100%;
     }
     #map {
+        margin-top:2em;
+        margin-bottom: 2em;
         height: 390px;
     }
 }
@@ -393,7 +395,7 @@
 /*////////////// XTRA SMALL DEVICES( mobile phones ) //////////////*/
 @media (min-width: 300px) and (max-width: 479px){
     .container{
-        width: 300px;
+        width: 90%;
     }
     .section_padding {
         padding-top: 104px;
@@ -636,5 +638,69 @@
     }
     .blog_content_wrapper {
         padding: 24px 24px 21px 25px;
+    }
+}
+@media screen and (max-width: 1775px)
+{
+    .navbar-brand
+    {
+        left: 0em;
+    }
+}
+@media screen and (max-width: 1570px)
+{
+    .mainmenu ul.navbar-nav > li > a
+    {
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 1400px)
+{
+    .mainmenu ul.navbar-nav > li > a
+    {
+        font-size: 20px;
+    }
+    .btn.hero_btn.rounded.btn-blue
+    {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 1300px)
+{
+    .mainmenu ul.navbar-nav > li > a
+    {
+        margin-right: 0;
+        font-size: 19px;
+    }
+}
+@media screen and (max-width: 1200px)
+{
+    .navbar-brand
+    {
+        display: none;
+    }
+    .mainmenu ul.navbar-nav > li > a
+    {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 992px)
+{
+    .navbar-brand
+    {
+
+        display: block;
+    }
+    .single_feature_slide:before
+    {
+        height: 100%;
+    }
+    .btn span, .btn i
+    {
+        font-size: 1.2em;
+    }
+    .single_feature_slide
+    {
+        margin-bottom: 5em;
     }
 }
