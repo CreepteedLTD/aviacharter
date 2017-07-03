@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2017 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="instagram" unicode="&#xe800;" d="M0-50l0 800q0 41 30 71t70 29l800 0q41 0 71-29t29-71l0-800q0-41-29-71t-71-29l-800 0q-41 0-70 29t-30 71z m200 400q0-124 88-212t212-88 212 88 88 212-88 212-212 88-212-88-88-212z m100 0q0 82 59 141t141 59 141-59 59-141-59-141-141-59-141 59-59 141z" horiz-adv-x="1000" />
+
+<glyph glyph-name="facebook" unicode="&#xe801;" d="M0 313l0 191 154 0 0 96q0 104 68 177t163 73l153 0 0-191-153 0q-15 0-27-16t-12-41l0-98 192 0 0-191-192 0 0-463-192 0 0 463-154 0z" horiz-adv-x="538" />
+</font>
+</defs>
+</svg>

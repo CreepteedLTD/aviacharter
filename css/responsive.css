@@ -1,0 +1,640 @@
+@media  (min-width: 1199px) and (max-width: 1650px){
+    .single_slider_content .slider_img_right{
+        right: 0;
+    }
+    .single_slider_content .slider_img_right img{
+        width: 70%;
+    }
+}
+@media  (max-width: 1199px){
+    .single_slider_content .slider_img_right{
+        right: 0;
+        text-align: right;
+    }
+    .single_slider_content .slider_img_right img{
+        width: 75%;
+        display: inline-block;
+    }
+    .feature_imgs img{
+        width: 100%;
+    }
+}
+
+/*////////////// MEDIUM DEVICES //////////////*/
+@media screen and (max-width: 991px){
+    /* MOBIL MENU AREA CSS */
+    .menu_area.shrinked .navbar-toggle{
+        padding: 15px 10px;
+    }
+    .navbar-toggle {
+        display: block;
+        transition: 0.3s;
+    }
+    .navbar-header{
+        float: none;
+    }
+    .navbar-toggle {
+        padding: 20px 10px;
+        cursor: pointer;
+    }
+    .navbar-toggle i{
+        font-size: 35px;
+        color: #fff;
+    }
+    .navbar-nav{
+        width: 100%;
+        padding: 20px;
+        border-top: 1px solid #ededed;
+    }
+    .navbar-collapse.collapse.in .navbar-nav{
+        padding: 28px 15px;
+    }
+    .navbar-nav>li{
+        width: 100%;
+        float: none;
+    }
+    .menu_area .mainmenu ul.navbar-nav li a,
+    .menu_area.shrinked .mainmenu ul.navbar-nav li a{
+        line-height: 40px;
+    }
+    div#for_mobile {
+        z-index: 1;
+        height: 261px;
+    }
+    .has_dropdown .dropdwon {
+        position: initial;
+        transition: initial;
+        opacity: 1;
+        width: 100%;
+        visibility: visible;
+        background: #277cbf;
+        padding-left: 25px;
+    }
+    .has_dropdown .dropdwon ul li a{
+        color: #fff;
+    }
+    /* SLDERT AREA CSS */
+    .single_slider_content .slider_img_right img {
+        display: none;
+    }
+    /* FEATURE AREA*/
+    .about_us_btns ul li:last-child{
+        display: none;
+    }
+    .features_wrapper.ltr {
+        padding-right: 15px;
+        position: relative;
+    }
+    .features_wrapper.rtl {
+	    padding-left: 15px;
+	}
+    .features_wrapper.ltr:before {
+        content: "";
+        position: absolute;
+        height: 75%;
+        width: 1px;
+        background: #ededed;
+        top: 45%;
+        transform: translateY(-50%);
+        right: -16px;
+    }
+    .more_feature_slider:before{
+        width: 62%;
+    }
+    .ratings{
+        float: none;
+    }
+    .faq_img img {
+        width: 100%;
+    }
+    #map {
+        height: 390px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .single_slider_content .slider_img_right img{
+        width: 68%;
+    }
+    .single_slider_content .big_title{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .about_us_btns ul li{
+        margin-right: 13px;
+    }
+    .about_btn{
+        width: 156px;
+        line-height: 65px;
+    }
+    .about_img_wrapper .img_top img {
+        width: 75%;
+    }
+    .about_img_wrapper .image_bottom{
+        text-align: right;
+    }
+    .about_img_wrapper .image_bottom img {
+        width: 85%;
+    }
+
+    /* video section */
+    .video_area{
+        height: 500px;
+    }
+
+    /*COUNTER UP*/
+    .single_counter_wrapper{
+        padding: 0 46px;
+    }
+    /* TESTIMONIAL AREA */
+    .about_img_wrapper .image_bottom img{
+        width: 75%;
+    }
+    .clients .sub_content{
+        padding-bottom: 0;
+    }
+
+    /* PRICING AREA CSS */
+    .single_pricing_wrapper{
+        padding-bottom: 40px;
+    }
+    .single_pricing_wrapper .pack_title{
+        padding: 20px 0;
+    }
+    .pack_feature {
+        padding-top: 34px;
+        padding-bottom: 26px;
+    }
+    .pricing{
+        margin: 0 55px;
+        padding-top: 22px;
+        padding-bottom: 29px;
+    }
+    .pricing h2{
+        font-size: 45px;
+    }
+    .pack_title h3{
+        font-size: 25px;
+    }
+    .pack_feature li{
+        padding-bottom: 4px;
+    }
+    .screenshot {
+        padding-top: 150px;
+    }
+    .accordion_wrapper .section_title .sect_short_desc{
+        padding: 0;
+    }
+    .section_title .sect_short_desc {
+        padding: 0 177px;
+    }
+    .faq_img {
+        float: right;
+        padding-top: 70px;
+    }
+
+    /*blog post navigation*/
+    .post_nav_area .nav_btn.prev_post {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px){
+
+}
+
+
+
+
+/*////////////// MEDIUM DEVICES //////////////*/
+@media (min-width: 992px) and (max-width: 1199px){
+    /* MENU AREA */
+    .navbar-brand{
+        width: 185px;
+        margin-top: 14px;
+    }
+    .mainmenu ul.navbar-nav li a{
+        font-size: 13px;
+        padding: 0 12px;
+    }
+    .navbar-brand>img{
+        width: 100%;
+    }
+
+    /* COUNTER UP AREA */
+    .single_slider_content .big_title{
+        font-size: 50px;
+        line-height: 61px;
+    }
+    .about_us_btns ul li{
+        margin-right: 15px;
+    }
+    .single_counter_wrapper{
+        padding: 0 86px;
+    }
+}
+
+
+/*////////////// TAB OR LARGE MOBILE PHONE //////////////*/
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+
+
+/*////////////// CUSTOM RESPONSIVE CSS //////////////*/
+@media screen and (max-width: 767px){
+    .shrinked .navbar-brand {
+        margin-top: 0;
+        padding: 8px 15px;
+        width: 185px;
+    }
+    .menu_area.shrinked .navbar-toggle{
+        padding: 6px 15px;
+        margin: 5px 0;
+    }
+    .navbar-brand{
+        margin-top: 20px;
+        width: 185px;
+    }
+    .menu_area.shrinked{
+        height: 65px;
+    }
+
+    /* Breadcrumb area */
+    .breadcrumb_area{
+        padding-top: 170px;
+    }
+    .breadcrumbs {
+        padding-top: 70px;
+    }
+
+    /* slider area css */
+    .single_slider_content .short_info{
+        margin-bottom: 30px;
+    }
+    .single_slider_content .hero_btn{
+        margin-right: 15px;
+    }
+    .single_slider_content .big_title{
+        font-size: 34px;
+        line-height: 50px;
+    }
+    .single_slider_content .short_info{
+        font-size: 16px;
+    }
+    .about_img_wrapper{
+        margin-bottom: 50px;
+    }
+    .about_app{
+        padding-bottom: 130px;
+    }
+
+    .section_title .sect_short_desc{
+        padding: 0;
+    }
+    .feature_area .features_wrapper {
+        padding: 0;
+    }
+    .features_wrapper.ltr:before {
+        width: 75%;
+        height: 1px;
+        -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+        left: 50%;
+        top: calc(100% + 50px);
+    }
+    .single_feature_slide{
+        margin-bottom: 70px;
+    }
+    .feature_area .features_wrapper.rtl{
+        padding-top: 130px;
+    }
+    .feature_imgs{
+        margin-top: 50px;
+    }
+    .more_feature_slider{
+        padding-bottom: 0;
+    }
+    .more_feature .feature_image_wrapper{
+        bottom: -50px;
+    }
+    .video_area{
+        height: 400px;
+    }
+    .screenshot{
+        padding-top: 130px;
+    }
+    .single_counter_wrapper{
+        padding: 0;
+        margin-right: -4px;
+        margin-bottom: 35px;
+    }
+    .clients{
+        padding-bottom: 125px;
+    }
+    .single_pricing_wrapper{
+        margin-bottom: 50px;
+    }
+
+    /*FAQ SECTION*/
+    .single_acco_title .panel-title a{
+        font-size: 14px;
+    }
+    .faq_img{
+        display: none;
+    }
+    .faq_area{
+        padding-bottom: 120px;
+    }
+    .contact_area .pr_0{
+        padding-right: 15px;
+    }
+    .contact_area .pl_0{
+        padding-left: 15px;
+    }
+    .contact_area{
+        padding-bottom: 0;
+    }
+    .navbar-nav{
+        margin: 0;
+    }
+
+    /* SINGLE BLOG PAGE CSS GOES HERE */
+    .blog_title h3{
+        font-size: 30px;
+        padding-bottom: 12px;
+    }
+    .share_tags .tags{
+        float: none;
+    }
+    .post_nav_area .nav_btn{
+        margin-bottom: 20px;
+    }
+}
+
+
+/*////////////// SMALL DEVICES( mobile phones ) //////////////*/
+@media (min-width: 480px) and (max-width: 767px){
+    /* container width */
+    .container{
+        width: 450px;
+    }
+    .xs_halfwidth{
+        width: 50%;
+    }
+    .post_nav_area{
+        margin-top: 45px;
+    }
+    .reply_comments {
+        margin-left: 53px;
+    }
+}
+
+/*////////////// XTRA SMALL DEVICES( mobile phones ) //////////////*/
+@media (min-width: 300px) and (max-width: 479px){
+    .container{
+        width: 300px;
+    }
+    .section_padding {
+        padding-top: 104px;
+        padding-bottom: 95px;
+    }
+    .section_title h1{
+        font-size: 32px;
+    }
+    /*.navbar-brand{
+        padding: 0 15px;
+    }*/
+    .navbar-brand img{
+        width: 100%;
+    }
+    .icon i.icon_round{
+        font-size: 25px;
+        width: 55px;
+        line-height: 55px;
+    }
+    .single_feature .content{
+        padding-right: 20px;
+    }
+    .single_feature .feature_title{
+        font-size: 22px;
+    }
+    .video_area{
+        height: 320px;
+    }
+    .about_img_wrapper{
+        min-height: 440px;
+    }
+    .testimonial_slider .owl-controls{
+        margin-top: 0;
+    }
+    .clients {
+        padding-bottom: 108px;
+    }
+    .pricing h2{
+        font-size: 50px;
+    }
+    .pack_feature {
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+    .single_pricing_wrapper{
+        padding-bottom: 30px;
+    }
+    .pricing h2 sup{
+        font-size: 20px;
+    }
+    .faq_area{
+        padding-top: 108px;
+    }
+    .counterup{
+        padding-top: 85px;
+        padding-bottom: 54px;
+    }
+    .download_area + section{
+        padding-top: 85px;
+    }
+    .video_icon_wrapper i{
+        font-size: 55px;
+    }
+    .video_icon_wrapper p{
+        font-size: 22px;
+    }
+
+
+    /* slider area css */
+    .single_slider_content .big_title{
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .single_slider_content .hero_btn{
+        line-height: 48px;
+        padding: 0 22px;
+        margin-bottom: 20px;
+    }
+    .market_places ul{
+        width: 100%;
+    }
+    .market_places ul li{
+        width: 50px;
+        margin-right: 0;
+    }
+    .market_places ul li a, .market_places ul li i{
+        font-size: 25px;
+        line-height: 50px;
+    }
+    .market_places{
+        text-align: center;
+    }
+    /* about app section */
+    .about_app {
+        padding-bottom: 100px;
+        padding-top: 70px;
+    }
+    .about_img_wrapper .img_top img{
+        width: 100%;
+    }
+    .about_img_wrapper .image_bottom{
+        text-align: right;
+    }
+    .about_img_wrapper .image_bottom img{
+        width: 75%;
+    }
+    .about_btn{
+        line-height: 60px;
+        margin-bottom: 22px;
+    }
+
+    /* video area */
+    .video_icon_wrapper{
+        text-align: center;
+    }
+
+    /* counter up area */
+    .single_counter_wrapper{
+        width: 100%;
+    }
+    .count .count_up{
+        font-size: 32px;
+        line-height: 40px;
+        padding-bottom: 6px;
+    }
+    .count_icon {
+        padding-bottom: 10px;
+    }
+    .count_icon i {
+        font-size: 40px;
+    }
+    .count p{
+        font-size: 15px;
+        line-height: 32px;
+    }
+    .single_counter_wrapper{
+        margin-bottom: 25px;
+    }
+    .nav-left, .nav-right{
+        height: 43px;
+        width: 43px;
+    }
+    .nav-left i, .nav-right i{
+        line-height: 44px;
+        vertical-align: initial;
+    }
+    .testimonial_slider .owl-controls{
+        text-align: center;
+    }
+    .owl-controls{
+        padding-top: 35px;
+    }
+    .download_btn_wrapper a.btn{
+        margin-bottom: 20px;
+    }
+    .input_wrapper{
+        text-align: center;
+    }
+    .input_wrapper button{
+        position: initial;
+        display: inline-block;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .input_wrapper .input_icon{
+        top: 21%;
+    }
+
+    /* TESTIMONIAL AREA */
+    .single_testimonial{
+        padding: 20px;
+        text-align: center;
+    }
+    .client_img{
+        display: block;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+    /* download area */
+    .download_btn_wrapper a.btn{
+        margin-right: 0;
+        font-size: 12px;
+        line-height: 48px;
+        width: 150px;
+    }
+    .download_btn_wrapper a i, .download_btn_wrapper a i{
+        font-size: 18px;
+        margin-right: 3px;
+    }
+    .testimonial_content{
+        display: block;
+        width: 100%;
+    }
+
+    /*FAQ AREA*/
+    .single_acco_title .panel-title a i{
+        display: inline-block;
+        float: none;
+        vertical-align: middle;
+    }
+    /* SINGLE BLOG PAGE */
+    .blog_title h3{
+        font-size: 26px;
+    }
+    .blog_meta span.date, .blog_meta span.total_comments{
+        display: block;
+    }
+    .blog_list_elements li p{
+        width: calc(100% - 26px);
+    }
+    .blog_list_elements li{
+        margin-bottom: 15px;
+    }
+    .blog_list_elements{
+        padding-bottom: 10px;
+    }
+    .share_tags{
+        padding: 20px 25px;
+    }
+    .author_info{
+        text-align: center;
+    }
+    .author_info .admin_info{
+        width: 100%;
+        margin-top: 30px;
+        padding-left: 0;
+    }
+    .author_info .admin_img{
+        text-align: center;
+    }
+    .admin_info h4{
+        padding-bottom: 15px;
+    }
+    .no-pull-xs {
+        float: none!important;
+    }
+    .reply_comments {
+        margin-left: 44px;
+    }
+    .blog_content_wrapper {
+        padding: 24px 24px 21px 25px;
+    }
+}
