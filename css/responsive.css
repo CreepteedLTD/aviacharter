@@ -677,7 +677,7 @@
 {
     .navbar-brand
     {
-        display: none;
+        //display: none;
     }
     .mainmenu ul.navbar-nav > li > a
     {
@@ -702,5 +702,17 @@
     .single_feature_slide
     {
         margin-bottom: 5em;
+    }
+}
+@media screen and (max-width: 1150px)
+{
+    .navbar-brand>img
+    {
+        margin-top: 15px;
+        max-width: 130px !important;
+    }
+    .mainmenu ul.navbar-nav > li > a
+    {
+        font-size: 14px;
     }
 }
