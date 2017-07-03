@@ -1388,7 +1388,7 @@ Version: 1.01
 	.contact_address_wrapper > ul >li {
 	    text-align: center;
 	    padding: 0 49px;
-		min-height: 199px;
+		min-height: 122px;
 		display: table;
 		width: 100%;
 	}
@@ -1448,11 +1448,11 @@ Version: 1.01
 	}
 	.contact_form input::-moz-placeholder,
 	.contact_form textarea::-moz-placeholder{
-		color: #b3e0f5;
+		 color: rgba(30, 32, 39, 0.85);
 	}
 	.contact_form input::-webkit-input-placeholder,
 	.contact_form textarea::-webkit-input-placeholder{
-		color: #b3e0f5;
+		color: rgba(30, 32, 39, 0.85);
 	}
 	.contact_title{
 		text-align: center;
@@ -3690,4 +3690,29 @@ h4.single_blog_title {
     text-transform: uppercase;
     font-family: "Roboto Condensed";
     padding-bottom: 2em;
+}
+.contact_form input
+{
+	background-color: #f9fcff;
+	color: rgba(30, 32, 39, 0.85);
+}
+
+.contact_form textarea
+{
+	background-color: #f9fcff;
+	color: rgba(30, 32, 39, 0.85);
+}
+.contact_form input, .contact_form textarea, .contact_form input:focus, .contact_form textarea:focus
+{
+	background-color: #f9fcff;
+	color: rgba(30, 32, 39, 0.85);
+}
+.modal-content .contact_form input, .contact_form textarea, .contact_form input:focus, .contact_form textarea:focus
+{
+	background-color: #f9fcff;
+	color: rgba(30, 32, 39, 0.85);
+}
+.contact_form input, .contact_form textarea, .contact_form input:focus, .contact_form textarea:focus
+{
+	color: rgba(30, 32, 39, 0.85);
 }
