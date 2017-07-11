@@ -1,60 +1,7 @@
-/*
-Theme Name: AppsPress
-Author: Aazztech
-Author URI: http://aazztech.com/
-Version: 1.01
-*/
-
-
-/*****************************************
-    		TABLE OF CONTENTS
-******************************************
--------------------------------
-	GENERAL STYLES
--------------------------------
-======> RESET CSS
-======> TYPOGRAPHY
-======> HELPER CLASSES
-======> TRANSITION
-======> BUTTON STYLE
-======> ROUNDED ICONS
-======> SECTION PADDING
-======> SECTION TITLE
-======> START BREADCRUMB AREA
-======> THEME CSS
-
-
--------------------------------
-	SECTIONS CSS
--------------------------------
-======> START HERO AREA CSS
-		1. MENU AREA CSS
-		2. SLIDER AREA CSS
-======> ABOUT US AREA CSS
-======> FEATURE AREA CSS
-======> VIDEO AREA CSS
-======> MORE FEATURE CSS
-======> SCREENSHOT CSS
-======> COUNTERUP CSS
-======> TEAM CSS
-======> TESTIMONIAL CSS
-======> PRICING CSS
-======> FAQ CSS
-======> DOWNLOAD CSS
-======> SUBSCRIBE CSS
-======> NEWS CSS
-
-
--------------------------------
-	PAGES CSS
--------------------------------
-======> SINGLE BLOG PAGE CSS
-
-/*****************************
-    GENERAL STYLE
-*****************************/
-
-/* RESET CSS */
+@font-face {
+	font-family: "Futura PT Demi";
+	src: url(fonts/FuturaDemi);
+}
 	body{
 		font-family: 'Roboto Condensed', sans-serif;
 		position: relative;
@@ -75,6 +22,7 @@ Version: 1.01
 		outline: 0;
 	}
     h1 {
+		font-family: "Futura PT Demi", sans-serif;  !important;
         font-size: 4em;
     }
 	input[type=date],
@@ -120,10 +68,11 @@ Version: 1.01
 	    color: #676767;
 	}
 	p{
-		font-size: 18px;
+		font-size: 22px;
 		line-height: 26px;
 		color: #383838;
 		font-weight: 500;
+		margin-bottom: 1em;
 	}
 	h1,
 	h2,
@@ -237,6 +186,7 @@ Version: 1.01
 	.section_title h1 {
 		color: #333333;
 		font-weight: 300;
+		letter-spacing: -2px;
 	}
 	.section_title h1 > .highLighted{
 		font-weight: 700;
@@ -479,7 +429,8 @@ Version: 1.01
 		color: #fff;
 		margin-top: 20px;
 		margin-bottom: 53px;
-		font-size: 18px;
+		font-size: 28px;
+		line-height: 32px;
 		font-weight: 400;
 	}
 	.single_slider_content .hero_btn {
@@ -613,13 +564,20 @@ Version: 1.01
 	/* about us btns */
 	.about_btn {
 	    padding: 0 14px;
-		line-height: 72px;
 		width: 165px;
 		color: #fff;
 		box-shadow: 0 0 0;
+		line-height: 55px;
+		-webkit-transition: all .5s ease-in;
+		-moz-transition: all .5s ease-in;
+		-ms-transition: all .5s ease-in;
+		-o-transition: all .5s ease-in;
+		transition: all .5s ease-in;
 	}
 	.about_btn:hover{
 		box-shadow: 0 0 0;
+		background-color: white;
+		color: #26b8eb;
 	}
 	.about_us_btns ul li {
 	    display: inline-block;
@@ -1395,6 +1353,7 @@ Version: 1.01
 	.info_wrapper{
 		vertical-align: middle;
 		display: table-cell;
+		padding: 2em;
 	}
 	.contact_address_wrapper > ul > li  i {
 	    color: #fff;
@@ -2303,6 +2262,7 @@ h4.single_blog_title {
 .more_feature,
 .single_acco_title .panel-title a{
     background: #26b8eb;
+	border-radius: 16px;
 }
 
 
@@ -3601,7 +3561,7 @@ h4.single_blog_title {
 
 
 .backy {
-	background-color: rgba(255,255,255,.7);
+	background-color: rgba(255,255,255,.9);
 	padding: 2em;
 	border-radius: 16px;
 	margin-top: 2em;
@@ -3615,7 +3575,7 @@ h4.single_blog_title {
 .backy3 {
 	background-color: rgba(255,255,255,.8);
 	padding: 1em;
-	/*border-radius: 16px;*/
+	border-radius: 10em;
 	margin-top: 2em;
 }
 
@@ -3630,6 +3590,10 @@ h4.single_blog_title {
 
 .about_app {
 	padding-bottom: 3em;
+	background-image: url(images/pattttBg.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .btn-blue {
@@ -3649,9 +3613,19 @@ h4.single_blog_title {
 }
 
 .contactP {
-	font-size: 14px;
+	font-size: 38px;
+	line-height: 38px;
+	color: #fff !important;
+	margin: 1em;
 }
-
+.contactP a {
+	color: #fff !important;
+}
+.contactDesc {
+	font-size: 28px;
+	line-height: 28px;
+	color: #fff;
+}
 .shrinked2 {
 	background: #2095f2;
 }
@@ -3661,7 +3635,7 @@ h4.single_blog_title {
 }
 
 .modal-content {
-	background-color: rgba(32,149,242, .5);
+	background-color: rgba(32,149,242, .9);
 	padding: 2em;
 	border-radius: 2em;
 }
@@ -3715,4 +3689,41 @@ h4.single_blog_title {
 .contact_form input, .contact_form textarea, .contact_form input:focus, .contact_form textarea:focus
 {
 	color: rgba(30, 32, 39, 0.85);
+}
+
+.mainNavLeft {
+	position: absolute;
+	top:50%;
+	left:0;
+	width: 3em;
+	height: 3em;
+	/*background-color: rgba(255,255,255,0.4);*/
+	margin: 2em;
+	padding: 2em;
+	background-image: url(images/arrowLeft.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.mainNavRight {
+	position: absolute;
+	top:50%;
+	right:0;
+	width: 3em;
+	height: 3em;
+	/*background-color: rgba(255,255,255,0.4);*/
+	margin: 2em;
+	padding: 2em;
+	background-image: url(images/arrowRight.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.backyAbout {
+	background-color: rgba(255,255,255,.7);
+	padding: 3em;
+	border-radius: 16px;
+	margin-top: 2em;
+	margin-bottom: 2em;
 }

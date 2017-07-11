@@ -122,7 +122,8 @@
       // hero slider
       $('.slider_wrapper').owlCarousel({
            loop:true,
-           nav: false,
+           nav: true,
+          navText: ["<div class='mainNavLeft'></div>", "<div class='mainNavRight'></div>"],
            autoplay: true,
            dots: false,
            items: 1
